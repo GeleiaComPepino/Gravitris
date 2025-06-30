@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravitris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="menuCanvas"></canvas>
+<div id="mainMenu" class="menu-container">
+    <div class="menu-content">
+        <h1 class="main-title">GRAVITRIS</h1>
+        <div class="menu-options">
+            <div class="menu-button" id="play-button">
+                <div class="menu-text-container">
+                    <h2>JOGAR</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="game-container">
+    <div class="side-panel left">
+        <div class="panel-box">
+            <h3>Hold</h3>
+            <canvas id="hold-canvas"></canvas>
+        </div>
+    </div>
+    <div class="main-game">
+        <canvas id="game-board"></canvas>
+        <div class="stats-container">
+            <div class="stat-box"><h3>Score</h3><p id="score">0</p></div>
+            <div class="stat-box"><h3>Linhas</h3><p id="lines">0</p></div>
+            <div class="stat-box"><h3>Nível</h3><p id="level">1</p></div>
+        </div>
+    </div>
+    <div class="side-panel right">
+        <div class="panel-box">
+            <h3>Next</h3>
+            <canvas id="next-canvas"></canvas>
+        </div>
+    </div>
+</div>
+
+<div id="gameOverModal" class="game-over-modal">
+    <div class="menu-content">
+        <div class="menu-text-container" style="text-align: center; margin-bottom: 20px; color: white;">
+             <h2 style="font-size: 2.5em;">FIM DE JOGO</h2>
+             <p id="finalScore" style="font-size: 1.2em;">Sua pontuação: 0</p>
+        </div>
+        <div class="menu-options">
+            <div class="menu-button" id="restartButton">
+                 <div class="menu-text-container">
+                    <h2>JOGAR NOVAMENTE</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
