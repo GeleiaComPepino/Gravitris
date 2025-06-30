@@ -51,7 +51,7 @@ O projeto está contido em três arquivos (`index.html`, `style.css`, `script.js
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/seu-usuario/Gravitris.git](https://github.com/seu-usuario/Gravitris.git)
+    git clone https://github.com/GeleiaComPepino/Gravitris.git
     cd Gravitris
     ```
 2.  Abra o arquivo `index.html` em qualquer navegador moderno. (Um servidor web é recomendado caso erros)
