@@ -35,6 +35,9 @@
 | Voltar ao Menu    | `ESC`                             |
 
 ---
+## ✅ Quer testar?
+-   Teste aqui no vercel: [Gravitis Vercel](https://gravitris.vercel.app/)
+---
 
 ## 🛠️ Tecnologias Usadas
 
